@@ -2,14 +2,13 @@
 
 ![](demo.png)
 
-## Introduction
+## Tools
 
-* Using:
-
-	* Webpack
-	* React Router & React Router Redux
-	* Redux devtool
-	* Semantic: UI framework
+* Babel
+* Webpack & webpack-dev-sever
+* React Router & React Router Redux
+* Redux devtool
+* Semantic: UI framework
 
 ## Installation
 
