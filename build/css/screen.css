@@ -1,0 +1,72 @@
+body {background: #EBEEF0;line-height: 18px;font-size: 13px;}
+h1, h2, h3, h4, h5, h6 {color: #212529;font-weight: 400;margin: 0;}
+a {text-decoration: none;color: #479ccf;cursor: pointer;}
+
+/* Content */
+ul{color: #798c9c;}
+.info {margin:10px 0;}
+.info h2 {font-size: 20px;font-weight: normal;margin-top: 15px;margin-bottom: 15px;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+.info p {color: #798c9c;font-size: 15px;line-height: 22px;margin: 0 0 15px;}
+.info p.small-text, .small-text {color: #798c9c; font-size: 13px;}
+
+/* Table */
+th {font-weight: 400;text-align: left;color: #31373d;padding: 8px 10px;border-bottom: 1px solid #ebeef0;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+.ui.basic.table {background: #fff; margin-bottom: 20px;}
+
+.container-wrapper {background-color: #fff; border-radius: 3px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); color: #31373d; clear: both;}
+.inner-wrapper {padding: 15px;}
+
+/* Utils */
+.dashed-text {border-bottom: 1px dashed #ccc;}
+.no-margin {margin: 0}
+.no-padding {padding: 0}
+.vmargin-30 {margin:30px 0;}
+.clear {clear: both;}
+
+/* Buttons */
+.ui.button {font-size: 13px; padding: 8.5px 15px;}
+.ui.primary.button {background-color: #479ccf;}
+.ui.basic.button {background-color: #fff !important; color: #479ccf !important; border: 1px solid #d3dbe2; box-shadow: none;}
+.ui.tiny.button {padding: 1px 15px; line-height: 1.5; border-radius: 3px;}
+.ui.button.no-border {border: none;}
+.ui.button.no-border:hover, .ui.button.no-border:focus, .ui.button.no-border:active {border: none; box-shadow: none;}
+.btn-purchase {background-color: #96bf48 !important; color: #fff !important; border: 1px solid #96bf48 !important; margin-left: 5px !important;}
+
+/* Modal */
+.modal-header {padding: 15px; border-bottom: 1px solid #e5e5e5}
+.modal-header .modal-title {font-size: 18px;}
+.modal-header .close-btn {float: right;}
+.modal-content {padding: 15px; width: 600px;}
+.modal-footer {padding: 15px; text-align: right; border-top: 1px solid #e5e5e5;}
+
+.card {background-color: #fff; border-radius: 3px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); color: #31373d;}
+
+/* Warning */
+.warning {color: red; margin-top: 10px; white-space: pre;}
+/*.warning span {display: block; margin-top: 10px;}*/
+
+/* Loading */
+.ui.dimmer {position: fixed !important;}
+
+/* Select2 */
+.select2-container-multi {width: 100%;}
+.select2-container-multi .select2-choices { border-radius: 4px; padding: 2px !important; border: 1px solid rgba(34,36,38,.15) !important; background-image: none !important;}
+.select2-results .select2-no-results, .select2-results .select2-searching, .select2-results .select2-ajax-error, .select2-results .select2-selection-limit {padding: 7px !important;}
+.select2-drop-active {border: none !important;}
+.select2-search-choice {color: #479ccf !important; background: #fff !important; padding: 8.5px 15px !important;}
+.select2-search-choice-close {top: 10px !important;}
+.select2-search-field {margin-top: 5px !important;}
+
+/* Message */
+.ui.message {position: fixed !important; top: 0; right: 1%; z-index: 9;}
+.ui.message>.close.icon {margin-top: 3px !important;}
+.ui.message .header {margin-right: 8px !important; white-space: pre;}
+
+/* Settings */
+.block-setting {padding: 25px 0 !important; border-bottom: 1px solid #e6e6e6;}
+.block-setting h1 {font-size: 18px; margin-bottom: 10px;}
+.block-setting-button {padding: 25px 0 !important;}
+
+.filter-label i {margin-right: 10px; cursor: move; color: #d3dbe2;}
+
+.field .fa {font-size: 22px; margin-right: 8px; margin-top: 6px;}
